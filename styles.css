@@ -14,11 +14,13 @@ body {
 .project-image {
   width: 500px;
   border-radius: 8px;
+justify-content: center;
 }
 
 .gallery-image {
   width: 200px;
   border-radius: 4px;
+    justify-content: center;
 }
 
 header {
@@ -29,24 +31,6 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: 300;
-    transition: opacity 0.3s ease;
-}
-
-nav a:hover {
-    opacity: 0.5;
-}
 
 section {
     padding: 3rem 2rem;
@@ -56,7 +40,7 @@ section {
 
 #hero {
     # background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    color: #000000;
     text-align: center;
     padding: 5rem 2rem;
 }
@@ -77,69 +61,22 @@ h2 {
     text-align: center;
 }
 
-#projects {
+
+
+
+#details {
     background-color: white;
-}
-
-.project-card {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-.project-card h3 {
-    color: #000000;
-    margin-bottom: 0.5rem;
-}
-
-.project-card p {
-    color: #81a368;
-}
-
-.project-card a {
-    color: #000000;
-    text-decoration: none;
-    font-weight: 500;
-    margin-top: 1rem;
-    display: inline-block;
-    transition: color 0.3s ease;
-}
-
-.project-card a:hover {
-    color: #764ba2;
-}
-
-#about {
-    background-color: #d1e3c3;
     text-align: center;
 }
 
-#about p {
+    #details p {
     font-size: 1.1rem;
-    color: #81a368;
+    color: #000000;
     max-width: 600px;
     margin: 0 auto;
 }
+    
 
-#contact {
-    background-color: white;
-    text-align: center;
-}
-
-#contact p {
-    font-size: 1.1rem;
-    color: #81a368;
-    margin-bottom: 2rem;
-}
 
 .social-links {
     display: flex;
