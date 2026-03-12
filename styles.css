@@ -11,6 +11,11 @@ body {
     background-color: #ffffff;
 }
 
+.project-image {
+  width: 400px;
+  border-radius: 8px;
+}
+
 header {
     # background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 1rem 0;
