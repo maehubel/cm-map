@@ -32,6 +32,10 @@ a:hover {
   color: #7b915c;
 }
 
+p {
+  margin-bottom: 1.2em;
+}
+
 header {
     # background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 1rem 0;
